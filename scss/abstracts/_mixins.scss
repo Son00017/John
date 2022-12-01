@@ -1,4 +1,9 @@
 @mixin responsive($breakpoint) {
+  @if $breakpoint == l-tablet {
+    @media screen and (max-width: 1091px) {
+      @content;
+    }
+  }
   @if $breakpoint == b-tablet {
     @media screen and (max-width: 705px) {
       @content;

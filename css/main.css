@@ -453,6 +453,8 @@ h5 {
 nav ul {
   display: flex;
   gap: 3.3rem;
+  padding-left: 5.8rem;
+  max-width: 23.6rem;
 }
 nav ul a {
   font-size: 2rem;
@@ -462,6 +464,11 @@ nav ul a {
 }
 nav ul a:hover {
   color: #ff6464;
+}
+@media screen and (max-width: 1091px) {
+  nav ul {
+    padding-left: 0;
+  }
 }
 @media screen and (max-width: 375px) {
   nav {
@@ -557,6 +564,15 @@ button {
   color: #ffffff;
   font-size: 2rem;
   line-height: 1.5;
+}
+.hero__img-bg {
+  position: relative;
+}
+.hero__img-bg .bg-img {
+  position: absolute;
+  z-index: -1;
+  top: 15px;
+  right: 5px;
 }
 .hero h1 {
   margin-bottom: 4rem;

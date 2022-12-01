@@ -2,16 +2,23 @@ nav {
   ul {
     display: flex;
     gap: 3.3rem;
+    padding-left: 5.8rem;
+    max-width: 23.6rem;
     a {
       font-size: 2rem;
       line-height: 1.5;
       font-weight: 500;
       color: $color-dark;
+
       &:hover {
         color: $color-primary;
       }
     }
+    @include responsive(l-tablet) {
+      padding-left: 0;
+    }
   }
+
   @include responsive(phone) {
     background-color: #ffffff;
     width: 100%;

@@ -14,6 +14,26 @@
     font-size: $nav-size;
     line-height: $nav-line;
   }
+
+  &__img-bg {
+    position: relative;
+    .bg-img {
+      position: absolute;
+      z-index: -1;
+      top: 15px;
+      right: 5px;
+    }
+  }
+  //   &__img-bg::after {
+  //     content: "";
+  //     position: absolute;
+  //     z-index: 11;
+  //     width: 24.3rem;
+  //     height: 24.3rem;
+  //     top: 1.3rem;
+  //     right: 5px;
+  //     background-color: black;
+  //   }
   h1 {
     margin-bottom: 4rem;
   }
