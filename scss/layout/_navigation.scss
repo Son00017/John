@@ -13,6 +13,9 @@ nav {
       &:hover {
         color: $color-primary;
       }
+      &:active {
+        opacity: 0.8;
+      }
     }
     @include responsive(l-tablet) {
       padding-left: 0;

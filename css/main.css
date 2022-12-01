@@ -464,6 +464,9 @@ nav ul a {
 nav ul a:hover {
   color: #ff6464;
 }
+nav ul a:active {
+  opacity: 0.8;
+}
 @media screen and (max-width: 1091px) {
   nav ul {
     padding-left: 0;
