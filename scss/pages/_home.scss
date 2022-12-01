@@ -199,10 +199,10 @@
   @include responsive(tablet) {
     &__card {
       flex-direction: column;
-      // img {
-      //   max-width: 33.9rem;
-      //   height: 23.9rem;
-      // }
+      img {
+        max-width: 33.9rem;
+        height: 23.9rem;
+      }
     }
     &__item {
       display: flex;
