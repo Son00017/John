@@ -1,0 +1,26 @@
+button {
+  border: 0;
+  cursor: pointer;
+}
+.toggle-btn {
+  display: none;
+  background-color: transparent;
+  @include responsive(phone) {
+    display: block;
+    position: relative;
+    z-index: 100;
+  }
+}
+.btn {
+  width: 20.8rem;
+  height: 4.7rem;
+  padding: 9px 2rem;
+  display: inline-block;
+  border-radius: 2px;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+}

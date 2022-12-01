@@ -1,0 +1,6 @@
+.hidden {
+  //   display: block;
+  @include responsive(phone) {
+    display: none;
+  }
+}

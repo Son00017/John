@@ -1,0 +1,13 @@
+.header {
+  padding: 2.7rem 0;
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 98.3rem;
+    padding: 0 2rem;
+    @include responsive(phone) {
+      padding: 0 2.4rem;
+      max-width: $container;
+    }
+  }
+}
