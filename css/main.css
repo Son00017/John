@@ -5,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -567,10 +566,11 @@ button {
 }
 .hero__img-bg {
   position: relative;
+  z-index: -1;
 }
 .hero__img-bg .bg-img {
   position: absolute;
-  z-index: -1;
+  z-index: -2;
   top: 15px;
   right: 5px;
 }
@@ -809,6 +809,7 @@ button {
   height: 2.5rem;
   background-color: #142850;
   color: #ffffff;
+  font-weight: 900;
   cursor: pointer;
 }
 .item__wrapper span:hover {
@@ -820,6 +821,7 @@ button {
   line-height: 1.5;
   color: #8695a4;
   margin-left: 2.6rem;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 360px) {
