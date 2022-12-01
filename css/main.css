@@ -736,10 +736,6 @@ button {
   .works__card {
     flex-direction: column;
   }
-  .works__card img {
-    max-width: 33.9rem;
-    height: 23.9rem;
-  }
   .works__item {
     display: flex;
     align-items: center;
@@ -763,7 +759,7 @@ button {
     max-width: 37rem;
   }
 }
-@media screen and (max-width: 457px) {
+@media screen and (max-width: 375px) {
   .works {
     text-align: center;
   }
