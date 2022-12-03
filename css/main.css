@@ -819,7 +819,7 @@ button {
   line-height: 1.5;
   color: #8695a4;
   margin-left: 2.6rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 360px) {
