@@ -4,3 +4,23 @@
     display: none;
   }
 }
+.block-hiddin {
+  @include responsive(phone) {
+    display: none;
+  }
+}
+.start-hiddins {
+  display: none;
+  @include responsive(phone) {
+    display: block;
+    img {
+      display: inline-block;
+      height: auto;
+      margin-right: 0;
+    }
+    margin-bottom: 0;
+    hr {
+      margin-top: 4.3rem;
+    }
+  }
+}

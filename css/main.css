@@ -427,12 +427,6 @@ h5 {
   }
 }
 
-@media screen and (max-width: 375px) {
-  .hidden {
-    display: none;
-  }
-}
-
 .header {
   padding: 2.7rem 0;
 }
@@ -836,5 +830,76 @@ button {
 @media screen and (max-width: 300px) {
   html {
     font-size: 40%;
+  }
+}
+.blog {
+  padding-top: 8.5rem;
+  padding-bottom: 5.3rem;
+}
+.blog .container {
+  max-width: 68.2rem;
+}
+.blog .container h1 {
+  margin-bottom: 5.5rem;
+}
+.blog__card {
+  margin-bottom: 2.2rem;
+}
+.blog__card h2 {
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.blog hr {
+  margin-bottom: 3.2rem;
+}
+@media screen and (max-width: 457px) {
+  .blog {
+    padding-top: 2.4rem;
+    padding-bottom: 1.8rem;
+  }
+  .blog .container h1 {
+    margin-bottom: 1.8rem;
+  }
+  .blog__card {
+    margin-bottom: 2.4rem;
+  }
+  .blog__card h2 {
+    margin-bottom: 2px;
+    font-size: 2.8rem;
+  }
+  .blog hr {
+    margin-bottom: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hidden {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .block-hiddin {
+    display: none;
+  }
+}
+
+.start-hiddins {
+  display: none;
+}
+@media screen and (max-width: 375px) {
+  .start-hiddins {
+    display: block;
+    margin-bottom: 0;
+  }
+  .start-hiddins img {
+    display: inline-block;
+    height: auto;
+    margin-right: 0;
+  }
+  .start-hiddins hr {
+    margin-top: 4.3rem;
   }
 }/*# sourceMappingURL=main.css.map */

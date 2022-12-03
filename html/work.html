@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Portfolio</title>
-    <link rel="stylesheet" href="./fonts/stylesheet.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="../fonts/stylesheet.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>Blog</title>
   </head>
   <body>
     <!-- HEADER -->
@@ -15,10 +15,10 @@
         <nav class="hidden navbar">
           <ul class="">
             <li>
-              <a href="./html/work.html">Works</a>
+              <a href="../html/work.html">Works</a>
             </li>
             <li>
-              <a href="./html/blog.html">Blog</a>
+              <a href="../html/blog.html">Blog</a>
             </li>
             <li>
               <a href="">Contact</a>
@@ -26,81 +26,20 @@
           </ul>
         </nav>
         <button class="toggle-btn">
-          <img src="./images/svg/menu.svg" alt="" />
+          <img src="../images/svg/menu.svg" alt="" />
         </button>
       </div>
     </header>
-    <!-- MAIN -->
-    <main class="main">
-      <section class="hero">
-        <div class="container">
-          <div class="wrapper">
-            <div class="title-wrapper">
-              <h1>Hi, I am John, Creative Technologist</h1>
-            </div>
-            <div class="desc-wrapper">
-              <p>
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </p>
-            </div>
-            <a href="" class="btn hero__btn">Download Resume</a>
-          </div>
-          <div class="hero__img-bg">
-            <img
-              src="./images/png/john.png"
-              srcset="./images/png/john.png 1x, ./images/png/john@2x.png 2x"
-              alt=""
-              class="hero__img"
-            />
-            <img class="bg-img" src="./images/svg/ellipse-bg.svg" alt="" />
-          </div>
-        </div>
-      </section>
-      <section class="posts">
-        <div class="container posts__container">
-          <div class="posts__sub-title-wrapper">
-            <h3>Recent posts</h3>
-            <a class="posts__link" href="">View all</a>
-          </div>
-          <ul class="posts__list">
-            <li>
-              <h2>Making a design system from scratch</h2>
-              <div class="posts__wrapper">
-                <p>12 Feb 2020</p>
-                <p>Design, Pattern</p>
-              </div>
-              <p class="post__text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </p>
-            </li>
-            <li>
-              <h2>Creating pixel perfect icons in Figma</h2>
-              <div class="posts__wrapper">
-                <p>12 Feb 2020</p>
-                <p>Design, Pattern</p>
-              </div>
-              <p class="post__text">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <main>
       <section class="works">
         <div class="container">
           <h3>Featured works</h3>
           <div class="works__card">
             <img
-              src="./images/png/black-screen@2x.png"
+              src="../images/png/black-screen@2x.png"
               srcset="
-                ./images/png/black-screen.jpg    1x,
-                ./images/png/black-screen@2x.png 2x
+                ../images/png/black-screen.jpg    1x,
+                ../images/png/black-screen@2x.png 2x
               "
               alt=""
             />
@@ -118,13 +57,36 @@
             </div>
           </div>
           <hr />
-          <div class="works__card block-hiddin">
+          <div class="works__card start-hiddins">
             <img
-              src="./images/png/black-screen.jpg"
-              srcset="./images/png/girl.jpg 1x, ./images/png/girl@2x.png 2x"
+              src="../images/png/recommend.jpg"
+              srcset="
+                ../images/png/recommend.jpg        1x,
+                ../images/png/recommend.jpg@2x.png 2x
+              "
               alt=""
             />
             <div class="works__item">
+              <h5>Designing Dashboards</h5>
+              <div class="item__wrapper">
+                <span>2020</span>
+                <p>Dashboard</p>
+              </div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+            <hr />
+          </div>
+          <div class="works__card block-hiddin">
+            <img
+              src="../images/png/black-screen.jpg"
+              srcset="../images/png/girl.jpg 1x, ../images/png/girl@2x.png 2x"
+              alt=""
+            />
+            <div class="works__item block-hiddin">
               <h5>Vibrant Portraits of 2020</h5>
               <div class="item__wrapper">
                 <span>2018</span>
@@ -137,11 +99,14 @@
               </p>
             </div>
           </div>
-          <hr />
+          <hr class="block-hiddin" />
           <div class="works__card block-hiddin">
             <img
-              src="./images/png/shodov.jpg"
-              srcset="./images/png/shodov.jpg 1x, ./images/png/shodov@2x.png 2x"
+              src="../images/png/shodov.jpg"
+              srcset="
+                ../images/png/shodov.jpg    1x,
+                ../images/png/shodov@2x.png 2x
+              "
               alt=""
             />
             <div class="works__item">
@@ -157,7 +122,30 @@
               </p>
             </div>
           </div>
-          <hr />
+          <hr class="block-hiddin" />
+          <div class="block-hiddin works__card">
+            <img
+              src="../images/png/Block.jpg"
+              srcset="
+                ../images/png/Block.jpg        1x,
+                ../images/png/Block.jpg@2x.png 2x
+              "
+              alt=""
+            />
+            <div class="works__item">
+              <h5>Components</h5>
+              <div class="item__wrapper">
+                <span>2018</span>
+                <p>Components, Design</p>
+              </div>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+          <hr class="block-hiddin" />
         </div>
       </section>
     </main>
@@ -166,7 +154,7 @@
       <div class="container">
         <div class="footer__wrapper">
           <div>
-            <div class="icon">
+            <a class="icon">
               <svg
                 width="30"
                 height="30"
@@ -179,8 +167,8 @@
                   fill="#21243D"
                 />
               </svg>
-            </div>
-            <div class="icon">
+            </a>
+            <a class="icon">
               <svg
                 width="30"
                 height="30"
@@ -201,8 +189,8 @@
                   fill="#21243D"
                 />
               </svg>
-            </div>
-            <div class="icon">
+            </a>
+            <a class="icon">
               <svg
                 width="37"
                 height="30"
@@ -215,8 +203,8 @@
                   fill="#21243D"
                 />
               </svg>
-            </div>
-            <div class="icon">
+            </a>
+            <a class="icon">
               <svg
                 width="30"
                 height="30"
@@ -229,13 +217,12 @@
                   fill="#21243D"
                 />
               </svg>
-            </div>
+            </a>
           </div>
           <p>Copyright ©2020 All rights reserved</p>
         </div>
       </div>
     </footer>
-    <!-- JavaScript -->
-    <script src="js/scripts.js"></script>
+    <script src="../js/scripts.js"></script>
   </body>
 </html>

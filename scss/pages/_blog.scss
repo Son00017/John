@@ -1,0 +1,45 @@
+.blog {
+  padding: {
+    top: 8.5rem;
+    bottom: 5.3rem;
+  }
+  .container {
+    h1 {
+      margin-bottom: 5.5rem;
+    }
+    max-width: 68.2rem;
+  }
+  &__card {
+    h2 {
+      margin-bottom: 2px;
+      font-weight: 500;
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+    margin-bottom: 2.2rem;
+  }
+  hr {
+    margin-bottom: 3.2rem;
+  }
+  @include responsive(m-tablet) {
+    padding: {
+      top: 2.4rem;
+      bottom: 1.8rem;
+    }
+    .container {
+      h1 {
+        margin-bottom: 1.8rem;
+      }
+    }
+    &__card {
+      h2 {
+        margin-bottom: 2px;
+        font-size: 2.8rem;
+      }
+      margin-bottom: 2.4rem;
+    }
+    hr {
+      margin-bottom: 1.8rem;
+    }
+  }
+}
