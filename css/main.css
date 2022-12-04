@@ -967,7 +967,8 @@ button {
   .start-hiddins img {
     display: inline-block;
     height: auto;
-    margin-right: 0;
+    margin-right: auto;
+    margin-left: auto;
   }
   .start-hiddins hr {
     margin-top: 4.3rem;
