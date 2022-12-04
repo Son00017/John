@@ -961,14 +961,13 @@ button {
 }
 @media screen and (max-width: 375px) {
   .start-hiddins {
-    display: block;
+    display: flex;
     margin-bottom: 0;
   }
   .start-hiddins img {
     display: inline-block;
     height: auto;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 0;
   }
   .start-hiddins hr {
     margin-top: 4.3rem;

@@ -12,12 +12,11 @@
 .start-hiddins {
   display: none;
   @include responsive(phone) {
-    display: block;
+    display: flex;
     img {
       display: inline-block;
       height: auto;
-      margin-right: auto;
-      margin-left: auto;
+      margin-right: 0;
     }
     margin-bottom: 0;
     hr {
