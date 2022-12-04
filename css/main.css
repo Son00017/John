@@ -901,7 +901,7 @@ button {
 }
 .details .img-wrapper {
   max-width: 68.1rem;
-  height: auto;
+  max-height: 46rem;
 }
 .details .img-wrapper img {
   width: 100%;
