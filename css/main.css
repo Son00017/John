@@ -566,7 +566,7 @@ button {
   position: relative;
   z-index: -1;
   max-width: 24.3rem;
-  height: auto;
+  height: 24.3rem;
 }
 .hero__img-bg .bg-img {
   position: absolute;
