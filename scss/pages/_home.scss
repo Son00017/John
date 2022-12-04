@@ -18,6 +18,8 @@
   &__img-bg {
     position: relative;
     z-index: -1;
+    max-width: 24.3rem;
+    height: auto;
     .bg-img {
       position: absolute;
       z-index: -2;
