@@ -789,6 +789,10 @@ button {
   gap: 1.8rem;
   margin-bottom: 1.7rem;
 }
+.works__card img {
+  width: 49.6rem;
+  height: 18rem;
+}
 
 .works_item h5 {
   margin-bottom: 0.9rem;
