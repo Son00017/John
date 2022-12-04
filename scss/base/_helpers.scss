@@ -9,14 +9,13 @@
     display: none;
   }
 }
-.start-hiddins {
+.st-hid {
   display: none;
   @include responsive(phone) {
     display: flex;
     img {
       display: inline-block;
       height: auto;
-      margin-right: 0;
     }
     margin-bottom: 0;
     hr {

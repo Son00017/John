@@ -956,20 +956,19 @@ button {
   }
 }
 
-.start-hiddins {
+.st-hid {
   display: none;
 }
 @media screen and (max-width: 375px) {
-  .start-hiddins {
+  .st-hid {
     display: flex;
     margin-bottom: 0;
   }
-  .start-hiddins img {
+  .st-hid img {
     display: inline-block;
     height: auto;
-    margin-right: 0;
   }
-  .start-hiddins hr {
+  .st-hid hr {
     margin-top: 4.3rem;
   }
 }/*# sourceMappingURL=main.css.map */
